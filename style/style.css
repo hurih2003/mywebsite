@@ -1,0 +1,115 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+.padding{
+    padding: 100px;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #f7c8eb;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    
+}
+header button{
+    border-radius: 20px 0px 20px 0px;
+    padding: 20px 30px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: #ff00b3;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background-color: rgb(255, 0, 179);
+    color: #ffffff;
+    /* box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); */
+    transform: translateY(-2px);
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+.about img{
+    width: 40%;
+    border-radius: 20px;
+    margin: 100px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+img:hover{
+    box-shadow: 4px 4px 10px rgb(255, 0, 179);
+    transform: translateY(-2px);
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+.skills{
+    width: 45%;
+    height: 200px;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgba(247, 200, 235, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.skills:hover{
+    box-shadow: 4px 4px 10px rgb(255, 0, 179);
+    transform: translateY(-2px);
+}
+
+.footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer .icon{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+    
+}
+
+@media screen and (max-width : 1000px) {
+    .last{
+    display: flex; 
+    flex-direction: column;
+}
+.about{
+    display: flex; 
+    flex-direction: column;    
+}
+
+
+
+
+}
