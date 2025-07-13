@@ -110,6 +110,10 @@ img:hover{
 }
 
 
-
+.about img{
+    width: 80%;
+    border-radius: 20px;
+    margin: 100px;
+}
 
 }
