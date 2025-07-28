@@ -101,6 +101,7 @@ img:hover{
 .footer .icon{
     display: flex;
     flex-direction: row;
+    text-align: center;
     gap: 50px;
     padding: 20px;
     
